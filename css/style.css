@@ -286,3 +286,14 @@ footer ul{
 {
 	cursor: pointer;
 }
+
+.newdiv
+{	
+	padding: 20px;
+}
+
+.newdiv .img
+{
+	width: 400; 
+	height: 225;
+}
