@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0ec2d0a003.js" crossorigin="anonymous"></script>
+        <meta charset = "UTF-8">
+        
+        <title>周杰倫紛絲團－最新消息</title>
+    </head>
+    <body>
+        <!--Nav-->
+        <header>
+            <div class = "container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">                      
+                        <img src = "pictures/周杰倫logo.jpg" height = "50" width = "40">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="news.html">最新消息</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              相關介紹
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="index.html#second">歌手簡介</a></li>
+                              <li><a class="dropdown-item" href="index.html#latest">推薦歌曲</a></li>
+                              <li><a class="dropdown-item" href="index.html#email">電子郵件</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="https://www.google.com">google</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">VUE作品</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!--news-->
+        <div class = "container">
+            <div class = "row">
+                <div id = "news" class = "col-md-12 text-center">
+                  <h3>最新消息</h3>
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pictures/海報1.webp" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pictures/海報2.jpeg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pictures/海報3.webp" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>    
+        </div>
+        <!--Footer-->
+        <footer>
+            <div class = "container">
+              <div class = "row">
+                <div class = "col-md-4 text-left">
+                  <img src = "pictures/周杰倫logo.jpg" width = "40">
+                  <p>生活悶悶地？加入周杰倫粉絲團一起聽演唱會啦！</p>
+                </div>
+                <div class = "col-md-4 text-left">
+                  <h4>連結</h4>
+                  <ul>
+                    <li><a href = "index.html">首頁</a></li>
+                    <li><a href = "#news">最新消息</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href = "index.html">相關介紹</a></li>
+                    <li><a href = "#email">聯絡我們</a></li>
+                  </ul>
+                </div>
+                <div class = "col-md-4 text-left">
+                  <h4>聯絡我們</h4>
+                  <p>高雄市大寮區<br>
+                    Phone: (07) 111-1111<br>
+                    Email: <a href = "mailto:royhung0323@gmail.com">royhung0323@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+           </footer>
+
+    </body>
+</html>
