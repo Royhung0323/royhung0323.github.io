@@ -292,8 +292,20 @@ footer ul{
 	padding: 20px;
 }
 
-.newdiv .img
+.newimg
 {
-	width: 400; 
-	height: 225;
+	width:400;
+	height:225;
+	overflow:hidden;
+}
+
+.newimg img
+{
+	transform:scale(1,1);
+	transition: all 0.5s ease-out;
+}
+
+.newimg img:hover
+{
+	transform:scale(1.1,1.1);
 }

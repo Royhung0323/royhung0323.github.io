@@ -13,39 +13,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/0ec2d0a003.js" crossorigin="anonymous"></script>
         <meta charset = "UTF-8">
-        
+        <script src = "js/script.js"></script>
         <title>周杰倫粉絲團－首頁</title>
     </head>
 
-    <script>
-      var audiolist =  document.getElementsByTagName("audio");
-      //讀取audio標籤集合
-
-      function Playmusic(musicObj)
-      {           
-        var thisMusic = document.getElementById(musicObj);  
-        //讀取音樂id      
-        if(thisMusic.paused) 
-        //如果要播放的音樂還沒播放
-        {          
-          [].forEach.call(audiolist, function(i) {
-            //如果有其他音樂播放，把其他音樂關閉
-            if(i !== thisMusic)
-            {
-              i.pause();
-              i.currentTime = 0;
-            } 
-          })
-          thisMusic.play(); //播放
-        }
-        else
-        {
-          thisMusic.pause(); //暫停
-          thisMusic.currentTime = 0; //把音樂時間歸零
-        }       
-      }
-      
-    </script>
     <body>
         <!--Nav-->
         <header>
